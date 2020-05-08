@@ -7,3 +7,7 @@ $(document).ready(function() {
         dots: true
     });
 });
+
+$(document).ready(function() {
+    $("#txttelefone").mask("(00) 90000-0000");
+});
